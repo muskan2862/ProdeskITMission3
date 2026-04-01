@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev-Detective</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>     
+<div class="container">
+  <header>
+    <div class="logo"><span class="icon">🔍</span><span>Dev Detective</span></div>
+    <p class="tagline">GitHub Intelligence System</p>
+  </header>
+
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('search')">🔎 Search</button>
+    <button class="tab" onclick="switchTab('battle')">⚔️ Battle Mode</button>
+  </div>
+  
+  <!-- SEARCH PANEL -->
+  <div id="panel-search" class="panel active">
+    <div class="search-wrap">
+      <input id="searchInput" class="search-input" type="text" placeholder="Enter GitHub username..." autocomplete="off">
+      <button id="searchBtn" class="search-btn" onclick="doSearch()">INVESTIGATE</button>
+    </div>
+    <div id="searchResult"></div>
+  </div>
+
+  <!-- BATTLE PANEL -->
+  <div id="panel-battle" class="panel">
+    <div class="battle-grid">
+      <div>
+        <input id="b1Input" class="search-input" type="text" placeholder="Fighter 1 username..." style="width:100%;margin-bottom:8px">
+      </div>
+      <div class="battle-vs"><div class="vs-badge">VS</div></div>
+      <div>
+        <input id="b2Input" class="search-input" type="text" placeholder="Fighter 2 username..." style="width:100%;margin-bottom:8px">
+      </div>
+    </div>
+    <button id="battleBtn" class="battle-btn" onclick="doBattle()">⚔️ START BATTLE</button>
+    <div id="battleResult" style="margin-top:24px"></div>
+  </div>
+</div>
+ 
+
+  
+</body>
+   <script src="script.js"></script>
+</html>
