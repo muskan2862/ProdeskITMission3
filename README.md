@@ -5,3 +5,4 @@ Dev Detective is a modern GitHub user search app that fetches and displays profi
 ![image alt](https://github.com/muskan2862/ProdeskITMission3/blob/300c325f3098288e51e8806675da0dd29072a7d2/Screenshot%202026-04-02%20012516.png)
 ![image alt](https://github.com/muskan2862/ProdeskITMission3/blob/c988d37595f68d99cbda03039e5407de32afa92d/Screenshot%202026-04-02%20012623.png)
 ![image alt](https://github.com/muskan2862/ProdeskITMission3/blob/ca82ee19240e0f9d4333f4222ac451215717132d/Screenshot%202026-04-02%20012636.png)
+![image alt](https://github.com/muskan2862/ProdeskITMission3/blob/c1727d4429b54ec73fc0440465bbf47c5a0f534b/Screenshot%202026-04-02%20012728.png)
